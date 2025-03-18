@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>William Meyer - Financial Planner at Lonfin MOB authorised by Sanlam</title>
+    <title>William Meyer - Financial Planner </title>
     <style>
         /* Full page styling */
         body {
@@ -130,6 +130,19 @@
             text-align: center;
             position: fixed;
             bottom: 0;
+            font-size: 0.9em; /* Smaller font for disclaimer */
+        }
+
+        .compliance {
+            font-size: 1em; /* Slightly smaller font for POPIA compliance */
+            color: #ffffff;
+            margin-top: 20px;
+        }
+
+        .disclaimer {
+            font-size: 0.8em;
+            color: #ffffff;
+            margin-top: 15px;
         }
     </style>
 </head>
@@ -210,11 +223,18 @@
             <h2>Connect with Me</h2>
             <p><a href="https://www.linkedin.com/in/william-meyer-a86677235/" target="_blank" class="button">Connect on LinkedIn</a></p>
         </div>
+
+        <!-- POPIA Compliance Message -->
+        <div class="compliance">
+            <p>All information shared is POPIA compliant and will be protected in accordance with the Protection of Personal Information Act (POPIA).</p>
+        </div>
+
     </div>
 
-    <!-- Footer Section -->
+    <!-- Footer Section with Disclaimer -->
     <footer>
         <p>&copy; 2025 William Meyer. All rights reserved.</p>
+        <p class="disclaimer">Disclaimer: This website is for capturing information and promoting financial services purposes only and is not intended as professional financial advice. Always consult with a qualified financial planner for personaliSed advice.</p>
     </footer>
 
 </body>

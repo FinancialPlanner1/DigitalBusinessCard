@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>William Meyer - Financial Planner</title>
+    <title>William Meyer - Financial Planner at Lonfin MOB authorised by Sanlam</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -92,6 +92,7 @@
         <h1>William Meyer</h1>
         <h2>Financial Planner</h2>
         <hr>
+
         <!-- Contact Info Section -->
         <div class="contact-info">
             <p><strong>Contact Me</strong></p>
@@ -102,7 +103,8 @@
         <!-- About Me Section -->
         <div class="section">
             <h2>About Me</h2>
-            <p>I am a driven individual who is dedicated and passionate about personal growth. I believe in the power of hard work, perseverance, and continuous learning to achieve success. Challenges motivate me, and I am always striving to push beyond my limits to grow and improve. My goal is to make a meaningful impact in everything I do, inspiring those around me to pursue their ambitions with confidence and determination. Success, for me, is not just about personal achievement but also about uplifting others and making a positive difference in the world.</p>
+            <p>I’m a passionate and dedicated financial planner who believes in hard work, perseverance, and continuous learning. I aim to help individuals and businesses make sound financial decisions that lead to long-term success. I thrive on challenges and always strive to provide valuable solutions that improve financial well-being.</p>
+            <p>As a financial planner, I am dedicated to helping clients build wealth and create a lasting legacy through personalised strategies and informed decision making. I focus on understanding each client’s unique needs, offering clear, actionable advice, and building long term plans for success. By providing tailored solutions, I empower clients to navigate life’s financial challenges with confidence and security.</p>
         </div>
 
         <!-- Qualifications Section -->
@@ -111,7 +113,7 @@
             <ul>
                 <li>BCom in Business Management</li>
                 <li>2 Years of Experience in Financial Planning</li>
-                <li>Authorised Financial Planner at Sanlam</li>
+                <li>Authorised Financial Planner at <a href="https://www.sanlam.co.za/Pages/default.aspx" target="_blank">Sanlam</a></li>
             </ul>
         </div>
 
@@ -124,14 +126,13 @@
                 <li>Business Insurance</li>
                 <li>Will & Estate Planning</li>
                 <li>Investment Advice</li>
-           
             </ul>
         </div>
 
         <!-- Location Section -->
         <div class="section">
             <h2>Location</h2>
-            <p>Find me at: <strong>1st Floor, Century Way, The Colosseum, Cape Town, South Africa</strong></p>
+            <p>Find me at: <strong><a href="https://www.google.com/maps?q=1st+Floor,+Century+Way,+The+Colosseum,+Cape+Town,+South+Africa" target="_blank">1st Floor, Century Way, The Colosseum, Cape Town, South Africa</a></strong></p>
         </div>
 
         <!-- Book a Meeting Form -->

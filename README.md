@@ -13,7 +13,7 @@
         }
         .container {
             width: 90%;
-            margin: 50px auto;
+            margin: 60px auto;
             background: #fff;
             padding: 20px;
             box-shadow: 0px 0px 10px #aaa;
@@ -114,7 +114,7 @@
         <!-- About Me Section -->
         <div class="section">
             <h2>About Me</h2>
-            <p>As a financial planner, I am dedicated to helping clients build wealth and create a lasting legacy through personalised strategies and informed decision making. I focus on understanding each client’s unique needs, offering clear, actionable advice, and building long-term plans for success. By providing tailored solutions, I empower clients to navigate life’s financial challenges with confidence and security.</p>
+            <p>As a financial planner, I am dedicated to helping clients build wealth and create a lasting legacy through personalised strategies and informed decision making. I focus on understanding each client’s unique needs, offering clear actionable advice and building long term plans for success. By providing tailored solutions, I empower clients to navigate life’s financial challenges with confidence and security.</p>
         </div>
 
         <!-- Qualifications Section -->
@@ -122,7 +122,7 @@
             <h2>Qualifications</h2>
             <ul>
                 <li>BCom in Business Management</li>
-                <li>2 Years of Experience in Financial Planning</li>
+                <li>2 Years of Experience in the Financial Planning industry</li>
                 <li>Authorised Financial Planner at <a href="https://www.sanlam.co.za/Pages/default.aspx" target="_blank">Sanlam</a></li>
             </ul>
         </div>
@@ -133,9 +133,9 @@
             <ul>
                 <li>Life Insurance</li>
                 <li>Retirement Planning</li>
-                <li>Business Insurance</li>
+                <li>Tax-Free Investment</li>
                 <li>Will & Estate Planning</li>
-                <li>Investment Advice</li>
+                <li>Investment Advice & Solutions</li>
             </ul>
         </div>
 

@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>William Meyer - Financial Planner at Lonfin MOB authorised by Sanlam</title>
+    <title>William Meyer - Financial Planner</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -92,7 +92,6 @@
         <h1>William Meyer</h1>
         <h2>Financial Planner</h2>
         <hr>
-
         <!-- Contact Info Section -->
         <div class="contact-info">
             <p><strong>Contact Me</strong></p>
@@ -103,7 +102,7 @@
         <!-- About Me Section -->
         <div class="section">
             <h2>About Me</h2>
-            <pI am a driven individual who is dedicated and passionate about personal growth. I believe in the power of hard work, perseverance, and continuous learning to achieve success. Challenges motivate me, and I am always striving to push beyond my limits to grow and improve. My goal is to make a meaningful impact in everything I do, inspiring those around me to pursue their ambitions with confidence and determination. Success, for me, is not just about personal achievement but also about uplifting others and making a positive difference in the world.</p>
+            <p>I am a driven individual who is dedicated and passionate about personal growth. I believe in the power of hard work, perseverance, and continuous learning to achieve success. Challenges motivate me, and I am always striving to push beyond my limits to grow and improve. My goal is to make a meaningful impact in everything I do, inspiring those around me to pursue their ambitions with confidence and determination. Success, for me, is not just about personal achievement but also about uplifting others and making a positive difference in the world.</p>
         </div>
 
         <!-- Qualifications Section -->

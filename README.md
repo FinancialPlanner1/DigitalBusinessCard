@@ -1,6 +1,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>William Meyer - Financial Planner at Lonfin MOB authorised by Sanlam</title>
     <style>
         body {
@@ -84,6 +85,16 @@
         button:hover {
             background: #00407a;
         }
+        footer {
+            text-align: center;
+            background-color: #f4f4f9;
+            padding: 10px;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+        .disclaimer {
+            color: #777;
+        }
     </style>
 </head>
 <body>
@@ -103,7 +114,7 @@
         <!-- About Me Section -->
         <div class="section">
             <h2>About Me</h2>
-            <p>As a financial planner, I am dedicated to helping clients build wealth and create a lasting legacy through personalised strategies and informed decision making. I focus on understanding each client’s unique needs, offering clear, actionable advice, and building long term plans for success. By providing tailored solutions, I empower clients to navigate life’s financial challenges with confidence and security.</p>
+            <p>As a financial planner, I am dedicated to helping clients build wealth and create a lasting legacy through personalised strategies and informed decision making. I focus on understanding each client’s unique needs, offering clear, actionable advice, and building long-term plans for success. By providing tailored solutions, I empower clients to navigate life’s financial challenges with confidence and security.</p>
         </div>
 
         <!-- Qualifications Section -->
@@ -163,6 +174,7 @@
             <p><a href="https://www.linkedin.com/in/william-meyer-a86677235/" target="_blank" class="button">Connect on LinkedIn</a></p>
         </div>
     </div>
+
     <footer>
         <p>&copy; 2025 William Meyer. All rights reserved.</p>
         <p class="disclaimer">Disclaimer: This website is for informational purposes only and is not intended as professional financial advice. Always consult a qualified financial planner for personalized advice.</p>

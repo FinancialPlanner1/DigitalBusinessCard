@@ -19,7 +19,7 @@
         
         /* Main container styling */
         .container {
-            width: 85%; /* Wider container */
+            width: 95%; /* Wider container */
             max-width: 1400px; /* Max width increased */
             margin: 20px auto;
             background: #fff;

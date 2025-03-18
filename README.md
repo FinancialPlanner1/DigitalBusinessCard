@@ -3,43 +3,44 @@
     <meta charset="UTF-8">
     <title>William Meyer - Financial Planner at Lonfin MOB authorised by Sanlam</title>
     <style>
-        /* Resetting body margin and padding for full-page layout */
+        /* Full page styling */
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
             margin: 0;
             padding: 0;
-            color: #333;
+            color: #ffffff;
+            background-color: #005B9F; /* Deep blue background */
             height: 100vh;
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: center;
         }
-        
+
         /* Main container styling */
         .container {
-            width: 80%; /* Wider container */
+            width: 85%;
             max-width: 1200px;
             margin: 20px auto;
-            background: #fff;
-            padding: 40px;
-            box-shadow: 0px 0px 15px #aaa;
+            padding: 30px;
+            background-color: #ffffff;
+            color: #333;
             border-radius: 8px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
             text-align: center;
-            font-size: 1.2em; /* Increase text size */
         }
 
+        /* Header styles */
         h1, h2 {
             color: #005B9F;
-            font-size: 3em; /* Increase font size for headings */
+            font-size: 2.5em; /* Increased header size */
         }
 
+        /* Contact info section */
         .contact-info {
-            background: #005B9F;
+            background-color: #005B9F;
             color: white;
             padding: 20px;
-            text-align: center;
             border-radius: 5px;
             margin-bottom: 30px;
         }
@@ -50,10 +51,11 @@
             font-weight: bold;
         }
 
+        /* Section styling */
         .section {
-            margin-bottom: 30px; /* Increase margin */
+            margin-bottom: 25px;
+            font-size: 1.2em;
             text-align: left;
-            font-size: 1.1em;
         }
 
         .section ul {
@@ -63,9 +65,10 @@
         }
 
         .section li {
-            margin-bottom: 15px;
+            margin-bottom: 10px;
         }
 
+        /* Button styling */
         .button {
             display: inline-block;
             padding: 15px 30px;
@@ -73,14 +76,15 @@
             color: #fff;
             border-radius: 5px;
             text-decoration: none;
-            margin-top: 30px;
-            font-size: 1.2em; /* Larger button text */
+            margin-top: 20px;
+            font-size: 1.2em;
         }
 
         .button:hover {
             background-color: #00407a;
         }
 
+        /* Meeting form styling */
         .meeting-form {
             background: #e6f2ff;
             padding: 25px;
@@ -115,6 +119,17 @@
 
         button:hover {
             background: #00407a;
+        }
+
+        /* Footer section (optional for a more complete look) */
+        footer {
+            background-color: #00407a;
+            color: white;
+            width: 100%;
+            padding: 15px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
         }
     </style>
 </head>
@@ -196,6 +211,11 @@
             <p><a href="https://www.linkedin.com/in/william-meyer-a86677235/" target="_blank" class="button">Connect on LinkedIn</a></p>
         </div>
     </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 William Meyer. All rights reserved.</p>
+    </footer>
 
 </body>
 </html>

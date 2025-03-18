@@ -1,46 +1,45 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>William Meyer - Financial Planner </title>
+    <title>William Meyer - Financial Planner</title>
     <style>
-        /* Full page styling */
+        /* Resetting body margin and padding for full-page layout */
         body {
             font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
             margin: 0;
             padding: 0;
-            color: #ffffff;
-            background-color: #005B9F; /* Deep blue background */
+            color: #333;
             height: 100vh;
             display: flex;
             flex-direction: column;
-            justify-content: flex-start;
+            justify-content: center;
             align-items: center;
         }
-
+        
         /* Main container styling */
         .container {
-            width: 85%;
-            max-width: 1200px;
+            width: 85%; /* Wider container */
+            max-width: 1400px; /* Max width increased */
             margin: 20px auto;
-            padding: 30px;
-            background-color: #ffffff;
-            color: #333;
+            background: #fff;
+            padding: 40px;
+            box-shadow: 0px 0px 15px #aaa;
             border-radius: 8px;
-            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
             text-align: center;
+            font-size: 1.2em; /* Increase text size */
         }
 
-        /* Header styles */
         h1, h2 {
             color: #005B9F;
-            font-size: 2.5em; /* Increased header size */
+            font-size: 3.5em; /* Larger font size for headings */
         }
 
-        /* Contact info section */
         .contact-info {
-            background-color: #005B9F;
+            background: #005B9F;
             color: white;
             padding: 20px;
+            text-align: center;
             border-radius: 5px;
             margin-bottom: 30px;
         }
@@ -51,11 +50,10 @@
             font-weight: bold;
         }
 
-        /* Section styling */
         .section {
-            margin-bottom: 25px;
-            font-size: 1.2em;
+            margin-bottom: 30px; /* Increase margin */
             text-align: left;
+            font-size: 1.1em;
         }
 
         .section ul {
@@ -65,10 +63,9 @@
         }
 
         .section li {
-            margin-bottom: 10px;
+            margin-bottom: 15px;
         }
 
-        /* Button styling */
         .button {
             display: inline-block;
             padding: 15px 30px;
@@ -76,15 +73,14 @@
             color: #fff;
             border-radius: 5px;
             text-decoration: none;
-            margin-top: 20px;
-            font-size: 1.2em;
+            margin-top: 30px;
+            font-size: 1.2em; /* Larger button text */
         }
 
         .button:hover {
             background-color: #00407a;
         }
 
-        /* Meeting form styling */
         .meeting-form {
             background: #e6f2ff;
             padding: 25px;
@@ -121,28 +117,22 @@
             background: #00407a;
         }
 
-        /* Footer section (optional for a more complete look) */
+        /* Footer styling */
         footer {
-            background-color: #00407a;
-            color: white;
             width: 100%;
-            padding: 15px;
+            background: #f4f4f9;
             text-align: center;
-            position: fixed;
-            bottom: 0;
-            font-size: 0.9em; /* Smaller font for disclaimer */
+            padding: 20px 0;
+            margin-top: 40px;
         }
 
-        .compliance {
-            font-size: 1em; /* Slightly smaller font for POPIA compliance */
-            color: #ffffff;
-            margin-top: 20px;
+        footer p {
+            margin: 5px;
         }
 
         .disclaimer {
-            font-size: 0.8em;
-            color: #ffffff;
-            margin-top: 15px;
+            font-size: 0.9em;
+            color: #777;
         }
     </style>
 </head>
@@ -162,8 +152,7 @@
 
         <!-- About Me Section -->
         <div class="section">
-            <h2>About Me</h2>
-            <p>I’m a passionate and dedicated financial planner who believes in hard work, perseverance, and continuous learning. I aim to help individuals and businesses make sound financial decisions that lead to long-term success. I thrive on challenges and always strive to provide valuable solutions that improve financial well-being.</p>
+            <h2>About Me</h2> 
             <p>As a financial planner, I am dedicated to helping clients build wealth and create a lasting legacy through personalised strategies and informed decision making. I focus on understanding each client’s unique needs, offering clear, actionable advice, and building long-term plans for success. By providing tailored solutions, I empower clients to navigate life’s financial challenges with confidence and security.</p>
         </div>
 
@@ -223,18 +212,11 @@
             <h2>Connect with Me</h2>
             <p><a href="https://www.linkedin.com/in/william-meyer-a86677235/" target="_blank" class="button">Connect on LinkedIn</a></p>
         </div>
-
-        <!-- POPIA Compliance Message -->
-        <div class="compliance">
-            <p>All information shared is POPIA compliant and will be protected in accordance with the Protection of Personal Information Act (POPIA).</p>
-        </div>
-
     </div>
 
-    <!-- Footer Section with Disclaimer -->
     <footer>
         <p>&copy; 2025 William Meyer. All rights reserved.</p>
-        <p class="disclaimer">Disclaimer: This website is for capturing information and promoting financial services purposes only and is not intended as professional financial advice. Always consult with a qualified financial planner for personaliSed advice.</p>
+        <p class="disclaimer">Disclaimer: This website is for informational purposes only and is not intended as professional financial advice. Always consult a qualified financial planner for personalized advice.</p>
     </footer>
 
 </body>

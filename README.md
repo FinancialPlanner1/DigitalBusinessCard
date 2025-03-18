@@ -103,7 +103,7 @@
         <!-- About Me Section -->
         <div class="section">
             <h2>About Me</h2>
-            <p>I’m a passionate and dedicated financial planner who believes in hard work, perseverance, and continuous learning. I aim to help individuals and businesses make sound financial decisions that lead to long-term success. I thrive on challenges and always strive to provide valuable solutions that improve financial well-being.</p>
+            
             <p>As a financial planner, I am dedicated to helping clients build wealth and create a lasting legacy through personalised strategies and informed decision making. I focus on understanding each client’s unique needs, offering clear, actionable advice, and building long term plans for success. By providing tailored solutions, I empower clients to navigate life’s financial challenges with confidence and security.</p>
         </div>
 

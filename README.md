@@ -117,12 +117,6 @@
             </ul>
         </div>
 
-        <!-- Sanlam Section -->
-        <div class="section">
-            <h2>Sanlam</h2>
-            <p>For more information, visit <a href="https://www.sanlam.co.za/Pages/default.aspx" target="_blank">Sanlam</a>.</p>
-        </div>
-
         <!-- Connect with Me Section -->
         <div class="section">
             <h2>Connect with Me</h2>

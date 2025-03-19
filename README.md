@@ -107,7 +107,7 @@
         <!-- Contact Info Section -->
         <div class="contact-info">
             <p><strong>Contact Me</strong></p>
-            <p>Email: <a href="mailto:w.meyer@sanlam4u.co.za">w.meyer@sanlam4u.co.za</a></p>
+            <p>Email: <a href="mailto:w.meyer@lonfingroup.co.za">w.meyer@lonfingroup.co.za</a></p>
             <p>Cell: <a href="tel:+27634229601">+27 63 422 9601</a></p>
         </div>
 
@@ -123,7 +123,7 @@
             <ul>
                 <li>BCom in Business Management</li>
                 <li>2 Years of Experience in the Financial Planning industry</li>
-                <li>Authorised Financial Planner at <a href="https://www.sanlam.co.za/Pages/default.aspx" target="_blank">Sanlam</a></li>
+                <li>Authorised Financial Planner at <a href="https://www.lonfingroup.co.za" target="_blank">Lonfin Group</a></li>
             </ul>
         </div>
 
@@ -148,7 +148,7 @@
         <!-- Book a Meeting Form -->
         <div class="section meeting-form">
             <h2>Book a Meeting</h2>
-            <form action="mailto:w.meyer@sanlam4u.co.za" method="post" enctype="text/plain">
+            <form action="mailto:w.meyer@lonfingroup.co.za" method="post" enctype="text/plain">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="Name" required>
 

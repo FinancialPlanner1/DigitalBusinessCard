@@ -68,6 +68,33 @@
         .disclaimer {
             color: #777;
         }
+        .meeting-form {
+            background: #e6f2ff;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background: #005B9F;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 4px;
+        }
+        button:hover {
+            background: #00407a;
+        }
     </style>
 </head>
 <body>
@@ -115,6 +142,29 @@
                 <li>Commercial, Professional Indemnity and Specialty Insurance</li>
                 <li>Health Insurance (Medical Aid and GAP Cover)</li>
             </ul>
+        </div>
+
+        <!-- Book a Meeting Section -->
+        <div class="section meeting-form">
+            <h2>Book a Meeting</h2>
+            <form action="mailto:w.meyer@sanlam4u.co.za" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="Name" required>
+
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" name="Surname" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="Email" required>
+
+                <label for="contact">Contact Number:</label>
+                <input type="tel" id="contact" name="Contact" required>
+
+                <label for="message">Additional Details (Optional):</label>
+                <textarea id="message" name="Message" rows="4"></textarea>
+
+                <button type="submit">Send Meeting Request</button>
+            </form>
         </div>
 
         <!-- Connect with Me Section -->

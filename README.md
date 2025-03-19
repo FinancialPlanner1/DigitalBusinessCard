@@ -58,33 +58,6 @@
         .button:hover {
             background-color: #00407a;
         }
-        .meeting-form {
-            background: #e6f2ff;
-            padding: 15px;
-            border-radius: 5px;
-        }
-        label {
-            font-weight: bold;
-        }
-        input, textarea {
-            width: 100%;
-            padding: 8px;
-            margin: 5px 0;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-        button {
-            background: #005B9F;
-            color: white;
-            padding: 10px;
-            border: none;
-            cursor: pointer;
-            width: 100%;
-            border-radius: 4px;
-        }
-        button:hover {
-            background: #00407a;
-        }
         footer {
             text-align: center;
             background-color: #f4f4f9;
@@ -131,18 +104,23 @@
         <div class="section">
             <h2>Services Offered</h2>
             <ul>
-                <li>Life Insurance</li>
-                <li>Retirement Planning</li>
-                <li>Tax-Free Investment</li>
-                <li>Will & Estate Planning</li>
-                <li>Investment Advice & Solutions</li>
+                <li>Risk Planning (Life, Disability, Severe Illness, Funeral)</li>
+                <li>Investment Planning</li>
+                <li>Education Planning</li>
+                <li>Retirement Planning (Pre and Post Retirement)</li>
+                <li>Business Assurance</li>
+                <li>Wills and Estate Planning</li>
+                <li>Corporate Pension, Provident Fund and Group Life Cover</li>
+                <li>Car and Home Insurance</li>
+                <li>Commercial, Professional Indemnity and Specialty Insurance</li>
+                <li>Health Insurance (Medical Aid and GAP Cover)</li>
             </ul>
         </div>
 
-        <!-- Location Section -->
+        <!-- Sanlam Section -->
         <div class="section">
-            <h2>Location</h2>
-            <p>Find me at: <strong><a href="https://www.google.com/maps?q=1st+Floor,+Century+Way,+The+Colosseum,+Cape+Town,+South+Africa" target="_blank">1st Floor, Century Way, The Colosseum, Cape Town, South Africa</a></strong></p>
+            <h2>Sanlam</h2>
+            <p>For more information, visit <a href="https://www.sanlam.co.za/Pages/default.aspx" target="_blank">Sanlam</a>.</p>
         </div>
 
         <!-- Connect with Me Section -->

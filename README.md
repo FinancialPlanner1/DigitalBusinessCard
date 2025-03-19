@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>William Meyer - Financial Planner </title>
+    <title>William Meyer - Financial Planner</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -145,7 +145,7 @@
             </ul>
         </div>
 
-       <!-- Book a Meeting Form -->
+        <!-- Book a Meeting Form -->
         <div class="section meeting-form">
             <h2>Book a Meeting</h2>
             <form action="mailto:w.meyer@sanlam4u.co.za" method="post" enctype="text/plain">

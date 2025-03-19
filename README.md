@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>William Meyer - Financial Planner at Lonfin MOB authorised by Sanlam</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>William Meyer - Financial Planner</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,7 +14,7 @@
         }
         .container {
             width: 90%;
-            margin: 50px auto;
+            margin: 65px auto;
             background: #fff;
             padding: 20px;
             box-shadow: 0px 0px 10px #aaa;
@@ -57,10 +59,21 @@
         .button:hover {
             background-color: #00407a;
         }
+        footer {
+            text-align: center;
+            background-color: #f4f4f9;
+            padding: 10px;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+        .disclaimer {
+            color: #777;
+        }
         .meeting-form {
             background: #e6f2ff;
             padding: 15px;
             border-radius: 5px;
+            margin-top: 20px;
         }
         label {
             font-weight: bold;
@@ -87,7 +100,6 @@
     </style>
 </head>
 <body>
-
     <div class="container">
         <h1>William Meyer</h1>
         <h2>Financial Planner</h2>
@@ -100,62 +112,29 @@
             <p>Cell: <a href="tel:+27634229601">+27 63 422 9601</a></p>
         </div>
 
-        <!-- About Me Section -->
-        <div class="section">
-            <h2>About Me</h2>
-            <p>As a financial planner, I am dedicated to helping clients build wealth and create a lasting legacy through personalised strategies and informed decision making. I focus on understanding each client’s unique needs, offering clear, actionable advice, and building long term plans for success. By providing tailored solutions, I empower clients to navigate life’s financial challenges with confidence and security.</p>
+        <!-- Book a Meeting Form -->
+        <div class="section meeting-form">
+            <h2>Book a Meeting</h2>
+            <!-- Enable Autofill on the Form -->
+            <form action="mailto:w.meyer@sanlam4u.co.za" method="post" enctype="text/plain" autocomplete="on">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="Name" required autocomplete="name">
+
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" name="Surname" required autocomplete="family-name">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="Email" required autocomplete="email">
+
+                <label for="contact">Contact Number:</label>
+                <input type="tel" id="contact" name="Contact" required autocomplete="tel">
+
+                <label for="message">Additional Details (Optional):</label>
+                <textarea id="message" name="Message" rows="4" autocomplete="off"></textarea>
+
+                <button type="submit">Send Meeting Request</button>
+            </form>
         </div>
-
-        <!-- Qualifications Section -->
-        <div class="section">
-            <h2>Qualifications</h2>
-            <ul>
-                <li>BCom in Business Management</li>
-                <li>2 Years of Experience in Financial Planning</li>
-                <li>Authorised Financial Planner at <a href="https://www.sanlam.co.za/Pages/default.aspx" target="_blank">Sanlam</a></li>
-            </ul>
-        </div>
-
-        <!-- Services Offered Section -->
-        <div class="section">
-            <h2>Services Offered</h2>
-            <ul>
-                <li>Life Insurance</li>
-                <li>Retirement Planning</li>
-                <li>Business Insurance</li>
-                <li>Will & Estate Planning</li>
-                <li>Investment Advice</li>
-            </ul>
-        </div>
-
-        <!-- Location Section -->
-        <div class="section">
-            <h2>Location</h2>
-            <p>Find me at: <strong><a href="https://www.google.com/maps?q=1st+Floor,+Century+Way,+The+Colosseum,+Cape+Town,+South+Africa" target="_blank">1st Floor, Century Way, The Colosseum, Cape Town, South Africa</a></strong></p>
-        </div>
-
-     <!-- Book a Meeting Form -->
-<div class="section meeting-form">
-    <h2>Book a Meeting</h2>
-    <form action="mailto:w.meyer@sanlam4u.co.za" method="post" enctype="text/plain" autocomplete="on">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="Name" required autocomplete="name">
-
-        <label for="surname">Surname:</label>
-        <input type="text" id="surname" name="Surname" required autocomplete="family-name">
-
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="Email" required autocomplete="email">
-
-        <label for="contact">Contact Number:</label>
-        <input type="tel" id="contact" name="Contact" required autocomplete="tel">
-
-        <label for="message">Additional Details (Optional):</label>
-        <textarea id="message" name="Message" rows="4" autocomplete="off"></textarea>
-
-        <button type="submit">Send Meeting Request</button>
-    </form>
-</div>
 
         <!-- Connect with Me Section -->
         <div class="section">
@@ -164,5 +143,9 @@
         </div>
     </div>
 
+    <footer>
+        <p>&copy; 2025 William Meyer. All rights reserved.</p>
+        <p class="disclaimer">Disclaimer: This website is for informational purposes only and is not intended as professional financial advice. Always consult a qualified financial planner for personalized advice.</p>
+    </footer>
 </body>
 </html>

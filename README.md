@@ -1,8 +1,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>William Meyer - Financial Planner</title>
+    <title>William Meyer - Financial Planner at Lonfin MOB authorised by Sanlam</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,8 +11,8 @@
             color: #333;
         }
         .container {
-            width: 90%;
-            margin: 65px auto;
+            width: 60%;
+            margin: 50px auto;
             background: #fff;
             padding: 20px;
             box-shadow: 0px 0px 10px #aaa;
@@ -58,21 +57,10 @@
         .button:hover {
             background-color: #00407a;
         }
-        footer {
-            text-align: center;
-            background-color: #f4f4f9;
-            padding: 10px;
-            margin-top: 40px;
-            font-size: 0.9em;
-        }
-        .disclaimer {
-            color: #777;
-        }
         .meeting-form {
             background: #e6f2ff;
             padding: 15px;
             border-radius: 5px;
-            margin-top: 20px;
         }
         label {
             font-weight: bold;
@@ -99,6 +87,7 @@
     </style>
 </head>
 <body>
+
     <div class="container">
         <h1>William Meyer</h1>
         <h2>Financial Planner</h2>
@@ -114,7 +103,7 @@
         <!-- About Me Section -->
         <div class="section">
             <h2>About Me</h2>
-            <p>As a financial planner, I am dedicated to helping clients build wealth and create a lasting legacy through personalised strategies and informed decision making. I focus on understanding each client’s unique needs, offering clear actionable advice and building long term plans for success. By providing tailored solutions, I empower clients to navigate life’s financial challenges with confidence and security.</p>
+            <p>As a financial planner, I am dedicated to helping clients build wealth and create a lasting legacy through personalised strategies and informed decision making. I focus on understanding each client’s unique needs, offering clear, actionable advice, and building long term plans for success. By providing tailored solutions, I empower clients to navigate life’s financial challenges with confidence and security.</p>
         </div>
 
         <!-- Qualifications Section -->
@@ -122,9 +111,8 @@
             <h2>Qualifications</h2>
             <ul>
                 <li>BCom in Business Management</li>
-                <li>2 Years of Experience in the Financial Planning industry</li>
-                <li>Financial Planner at <a href="https://lonfingroup.co.za/index.php?option=com_sppagebuilder&view=page&id=2" target="_blank">Lonfin Group</a></li>
-                <li>Authorised by <a href="https://www.sanlam.co.za/Pages/default.aspx" target="_blank">Sanlam</a></li>
+                <li>2 Years of Experience in Financial Planning</li>
+                <li>Authorised Financial Planner at <a href="https://www.sanlam.co.za/Pages/default.aspx" target="_blank">Sanlam</a></li>
             </ul>
         </div>
 
@@ -132,37 +120,38 @@
         <div class="section">
             <h2>Services Offered</h2>
             <ul>
-                <li>Risk Planning (Life, Disability, Severe Illness, Funeral)</li>
-                <li>Investment Planning</li>
-                <li>Education Planning</li>
-                <li>Retirement Planning (Pre and Post Retirement)</li>
-                <li>Business Assurance</li>
-                <li>Wills and Estate Planning</li>
-                <li>Corporate Pension, Provident Fund and Group Life Cover</li>
-                <li>Car and Home Insurance</li>
-                <li>Commercial, Professional Indemnity and Specialty Insurance</li>
-                <li>Health Insurance (Medical Aid and GAP Cover)</li>
+                <li>Life Insurance</li>
+                <li>Retirement Planning</li>
+                <li>Business Insurance</li>
+                <li>Will & Estate Planning</li>
+                <li>Investment Advice</li>
             </ul>
+        </div>
+
+        <!-- Location Section -->
+        <div class="section">
+            <h2>Location</h2>
+            <p>Find me at: <strong><a href="https://www.google.com/maps?q=1st+Floor,+Century+Way,+The+Colosseum,+Cape+Town,+South+Africa" target="_blank">1st Floor, Century Way, The Colosseum, Cape Town, South Africa</a></strong></p>
         </div>
 
         <!-- Book a Meeting Form -->
         <div class="section meeting-form">
             <h2>Book a Meeting</h2>
-            <form action="mailto:w.meyer@sanlam4u.co.za" method="post" enctype="text/plain" autocomplete="on">
+            <form action="mailto:w.meyer@sanlam4u.co.za" method="post" enctype="text/plain">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="Name" required autocomplete="name">
+                <input type="text" id="name" name="Name" required>
 
                 <label for="surname">Surname:</label>
-                <input type="text" id="surname" name="Surname" required autocomplete="family-name">
+                <input type="text" id="surname" name="Surname" required>
 
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="Email" required autocomplete="email">
+                <input type="email" id="email" name="Email" required>
 
                 <label for="contact">Contact Number:</label>
-                <input type="tel" id="contact" name="Contact" required autocomplete="tel">
+                <input type="tel" id="contact" name="Contact" required>
 
                 <label for="message">Additional Details (Optional):</label>
-                <textarea id="message" name="Message" rows="4" autocomplete="off"></textarea>
+                <textarea id="message" name="Message" rows="4"></textarea>
 
                 <button type="submit">Send Meeting Request</button>
             </form>
@@ -175,9 +164,5 @@
         </div>
     </div>
 
-    <footer>
-        <p>&copy; 2025 William Meyer. All rights reserved.</p>
-        <p class="disclaimer">Disclaimer: This website is for informational purposes only and is not intended as professional financial advice. Always consult a qualified financial planner for personalized advice.</p>
-    </footer>
 </body>
 </html>

@@ -122,7 +122,8 @@
             <ul>
                 <li>BCom in Business Management</li>
                 <li>2 Years of Experience in the Financial Planning industry</li>
-                <li>Authorised Financial Planner at <a href="https://lonfingroup.co.za/index.php?option=com_sppagebuilder&view=page&id=2" target="_blank">Lonfin Group</a></li> authorised by Sanlam</li>
+                <li>Financial Planner at <a href="https://lonfingroup.co.za/index.php?option=com_sppagebuilder&view=page&id=2" target="_blank">Lonfin Group</a></li>
+                <li>Authorised by <a href="https://www.sanlam.co.za/Pages/default.aspx" target="_blank">Sanlam</a></li>
             </ul>
         </div>
 

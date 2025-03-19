@@ -72,6 +72,7 @@
             background: #e6f2ff;
             padding: 15px;
             border-radius: 5px;
+            margin-top: 20px;
         }
         label {
             font-weight: bold;

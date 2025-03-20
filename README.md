@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Image Website</title>
+    }
     <style>
         body {
             display: flex;
@@ -26,7 +26,6 @@
     <img src="https://github.com/FinancialPlanner1/DigitalBusinessCard/blob/main/Pic%20of%20ME.jpg" alt="Pic of ME">
 </body>
 </html>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>William Meyer - Financial Planner </title>

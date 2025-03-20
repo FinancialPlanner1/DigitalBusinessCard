@@ -1,5 +1,8 @@
 <html lang="en">
 <head>
+    <body>
+        (<img src="pic_Pic of me.jpg" alt="Italian Trulli">
+    </body>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>William Meyer - Financial Planner </title>

@@ -19,13 +19,6 @@
             box-shadow: 0px 0px 10px #aaa;
             border-radius: 8px;
             text-align: center;
-            opacity: 0;
-            animation: fadeIn 1.5s forwards;
-        }
-
-        @keyframes fadeIn {
-            0% { opacity: 0; }
-            100% { opacity: 1; }
         }
 
         h1, h2 {
@@ -50,6 +43,7 @@
             text-align: center;
             border-radius: 5px;
         }
+
         .contact-info a {
             color: white;
             text-decoration: none;
@@ -59,11 +53,6 @@
         .section {
             margin-bottom: 20px;
             text-align: left;
-            transition: transform 1s ease-out;
-        }
-
-        .section:hover {
-            transform: scale(1.02);
         }
 
         .section ul {

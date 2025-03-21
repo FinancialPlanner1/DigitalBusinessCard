@@ -32,14 +32,17 @@
             color: #005B9F;
             transition: color 0.3s ease;
         }
+
         .highlight {
             background-color: #e6f2ff;
             padding: 10px;
             border-radius: 5px;
             border: 1px solid #005B9F;
         }
+
         .highlight h2 {
             color: #00407a;
+            text-decoration: underline;
         }
 
         .contact-info {
@@ -83,6 +86,7 @@
         .button:hover {
             background-color: #00407a;
         }
+
         footer {
             text-align: center;
             background-color: #f4f4f9;
@@ -90,18 +94,22 @@
             margin-top: 40px;
             font-size: 0.9em;
         }
+
         .disclaimer {
             color: #777;
         }
+
         .meeting-form {
             background: #e6f2ff;
             padding: 15px;
             border-radius: 5px;
             margin-top: 20px;
         }
+
         label {
             font-weight: bold;
         }
+
         input, textarea {
             width: 100%;
             padding: 8px;
@@ -109,6 +117,7 @@
             border: 1px solid #ccc;
             border-radius: 4px;
         }
+
         button {
             background: #005B9F;
             color: white;
@@ -118,9 +127,11 @@
             width: 100%;
             border-radius: 4px;
         }
+
         button:hover {
             background: #00407a;
         }
+
         /* Slow Motion Scroll */
         html {
             scroll-behavior: smooth;
@@ -130,10 +141,23 @@
             margin-top: 50px;
         }
 
+        /* Underlining Specific Sections */
+        .underline {
+            text-decoration: underline;
+        }
+        
+        .logo {
+            margin: 20px auto;
+            width: 150px;
+        }
+
     </style>
 </head>
 <body>
     <div class="container">
+        <!-- Lonfin Wealth Logo -->
+        <img src="lonfin-wealth-logo.png" alt="Lonfin Wealth Logo" class="logo">
+
         <h1>William Meyer</h1>
         <h2>Financial Planner</h2>
         <hr>
@@ -152,7 +176,7 @@
         </div>
 
         <!-- Qualifications Section -->
-        <div class="section highlight" id="qualifications">
+        <div class="section highlight underline" id="qualifications">
             <h2>Qualifications</h2>
             <ul>
                 <li>BCom in Business Management</li>
@@ -163,7 +187,7 @@
         </div>
 
         <!-- Services Offered Section -->
-        <div class="section highlight" id="services-offered">
+        <div class="section highlight underline" id="services-offered">
             <h2>Services Offered</h2>
             <ul>
                 <li>Risk Planning (Life, Disability, Severe Illness, Funeral)</li>
@@ -180,7 +204,7 @@
         </div>
 
         <!-- Book a Meeting Form -->
-        <div class="section meeting-form">
+        <div class="section meeting-form underline">
             <h2>Book a Meeting</h2>
             <form action="mailto:w.meyer@sanlam4u.co.za" method="post" enctype="text/plain">
                 <label for="name">Name:</label>

@@ -19,19 +19,25 @@
             box-shadow: 0px 0px 10px #aaa;
             border-radius: 8px;
             text-align: center;
+            opacity: 0;
+            animation: fadeIn 1.5s forwards;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
         }
 
         h1, h2 {
             color: #005B9F;
+            transition: color 0.3s ease;
         }
-
         .highlight {
             background-color: #e6f2ff;
             padding: 10px;
             border-radius: 5px;
             border: 1px solid #005B9F;
         }
-
         .highlight h2 {
             color: #00407a;
         }
@@ -43,27 +49,28 @@
             text-align: center;
             border-radius: 5px;
         }
-
         .contact-info a {
             color: white;
             text-decoration: none;
             font-weight: bold;
         }
-
         .section {
             margin-bottom: 20px;
             text-align: left;
+            transition: transform 1s ease-out;
+        }
+
+        .section:hover {
+            transform: scale(1.02);
         }
 
         .section ul {
             list-style-type: none;
             padding: 0;
         }
-
         .section li {
             margin-bottom: 10px;
         }
-
         .button {
             display: inline-block;
             padding: 10px 20px;
@@ -73,11 +80,9 @@
             text-decoration: none;
             margin-top: 20px;
         }
-
         .button:hover {
             background-color: #00407a;
         }
-
         footer {
             text-align: center;
             background-color: #f4f4f9;
@@ -85,22 +90,18 @@
             margin-top: 40px;
             font-size: 0.9em;
         }
-
         .disclaimer {
             color: #777;
         }
-
         .meeting-form {
             background: #e6f2ff;
             padding: 15px;
             border-radius: 5px;
             margin-top: 20px;
         }
-
         label {
             font-weight: bold;
         }
-
         input, textarea {
             width: 100%;
             padding: 8px;
@@ -108,7 +109,6 @@
             border: 1px solid #ccc;
             border-radius: 4px;
         }
-
         button {
             background: #005B9F;
             color: white;
@@ -118,45 +118,18 @@
             width: 100%;
             border-radius: 4px;
         }
-
         button:hover {
             background: #00407a;
         }
-
         /* Slow Motion Scroll */
         html {
             scroll-behavior: smooth;
         }
 
-        /* Site Map Styling */
-        .site-map {
-            background-color: #005B9F;
-            color: white;
-            padding: 20px;
-            text-align: center;
-            margin-top: 40px;
-            border-radius: 5px;
+        .sitemap-section {
+            margin-top: 50px;
         }
 
-        .site-map ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .site-map li {
-            display: inline-block;
-            margin: 0 15px;
-        }
-
-        .site-map a {
-            color: white;
-            text-decoration: none;
-            font-size: 1.1em;
-        }
-
-        .site-map a:hover {
-            text-decoration: underline;
-        }
     </style>
 </head>
 <body>
@@ -234,17 +207,17 @@
             <h2>Connect with Me</h2>
             <p><a href="https://www.linkedin.com/in/william-meyer-a86677235/" target="_blank" class="button">Connect on LinkedIn</a></p>
         </div>
-    </div>
 
-    <!-- New Site Map Section -->
-    <div class="site-map">
-        <h2>Site Map</h2>
-        <ul>
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#qualifications">Qualifications</a></li>
-            <li><a href="#services-offered">Services Offered</a></li>
-            <li><a href="#connect-with-me">Connect with Me</a></li>
-        </ul>
+        <!-- Site Map Section -->
+        <div class="sitemap-section">
+            <h2>Site Map</h2>
+            <ul>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#qualifications">Qualifications</a></li>
+                <li><a href="#services-offered">Services Offered</a></li>
+                <li><a href="#connect-with-me">Connect with Me</a></li>
+            </ul>
+        </div>
     </div>
 
     <footer>

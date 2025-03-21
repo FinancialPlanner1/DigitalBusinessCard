@@ -148,18 +148,10 @@
             text-decoration: underline;
         }
 
-        .logo {
-            margin: 20px auto;
-            width: 150px;
-        }
-
     </style>
 </head>
 <body>
     <div class="container">
-        <!-- Lonfin Wealth Logo -->
-        <img src="lonfin-wealth-logo.png" alt="Lonfin Wealth Logo" class="logo">
-
         <h1>William Meyer</h1>
         <h2>Financial Planner</h2>
         <hr>

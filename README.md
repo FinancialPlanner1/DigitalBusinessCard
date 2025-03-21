@@ -128,6 +128,37 @@
             scroll-behavior: smooth;
         }
 
+        /* Site Map Styling */
+        .site-map {
+            background-color: #005B9F;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 40px;
+            border-radius: 5px;
+            display: block; /* Make sure it's a block element */
+        }
+
+        .site-map ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .site-map li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        .site-map a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        .site-map a:hover {
+            text-decoration: underline;
+        }
+
     </style>
 </head>
 <body>
@@ -205,6 +236,17 @@
             <h2>Connect with Me</h2>
             <p><a href="https://www.linkedin.com/in/william-meyer-a86677235/" target="_blank" class="button">Connect on LinkedIn</a></p>
         </div>
+    </div>
+
+    <!-- New Site Map Section -->
+    <div class="site-map">
+        <h2>Site Map</h2>
+        <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#qualifications">Qualifications</a></li>
+            <li><a href="#services-offered">Services Offered</a></li>
+            <li><a href="#connect-with-me">Connect with Me</a></li>
+        </ul>
     </div>
 
     <footer>

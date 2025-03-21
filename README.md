@@ -30,7 +30,6 @@
 
         h1, h2 {
             color: #005B9F;
-            transition: color 0.3s ease;
         }
 
         .highlight {
@@ -42,7 +41,6 @@
 
         .highlight h2 {
             color: #00407a;
-            text-decoration: underline;
         }
 
         .contact-info {
@@ -57,6 +55,7 @@
             text-decoration: none;
             font-weight: bold;
         }
+
         .section {
             margin-bottom: 20px;
             text-align: left;
@@ -71,9 +70,11 @@
             list-style-type: none;
             padding: 0;
         }
+
         .section li {
             margin-bottom: 10px;
         }
+
         .button {
             display: inline-block;
             padding: 10px 20px;
@@ -83,6 +84,7 @@
             text-decoration: none;
             margin-top: 20px;
         }
+
         .button:hover {
             background-color: #00407a;
         }
@@ -145,7 +147,7 @@
         .underline {
             text-decoration: underline;
         }
-        
+
         .logo {
             margin: 20px auto;
             width: 150px;
@@ -175,7 +177,7 @@
             <p>As a financial planner, I am dedicated to helping clients build wealth and create a lasting legacy through personalised strategies and informed decision making. I focus on understanding each client’s unique needs, offering clear actionable advice and building long term plans for success. By providing tailored solutions, I empower clients to navigate life’s financial challenges with confidence and security.</p>
         </div>
 
-        <!-- Qualifications Section -->
+        <!-- Qualifications Section (Underlined) -->
         <div class="section highlight underline" id="qualifications">
             <h2>Qualifications</h2>
             <ul>
@@ -186,7 +188,7 @@
             </ul>
         </div>
 
-        <!-- Services Offered Section -->
+        <!-- Services Offered Section (Underlined) -->
         <div class="section highlight underline" id="services-offered">
             <h2>Services Offered</h2>
             <ul>
@@ -203,7 +205,7 @@
             </ul>
         </div>
 
-        <!-- Book a Meeting Form -->
+        <!-- Book a Meeting Form (Underlined) -->
         <div class="section meeting-form underline">
             <h2>Book a Meeting</h2>
             <form action="mailto:w.meyer@sanlam4u.co.za" method="post" enctype="text/plain">

@@ -136,7 +136,6 @@
             text-align: center;
             margin-top: 40px;
             border-radius: 5px;
-            display: block; /* Make sure it's a block element */
         }
 
         .site-map ul {
@@ -145,7 +144,7 @@
         }
 
         .site-map li {
-            display: inline;
+            display: inline-block;
             margin: 0 15px;
         }
 
@@ -158,7 +157,6 @@
         .site-map a:hover {
             text-decoration: underline;
         }
-
     </style>
 </head>
 <body>
@@ -255,4 +253,3 @@
     </footer>
 </body>
 </html>
-

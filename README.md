@@ -142,12 +142,6 @@
         .sitemap-section {
             margin-top: 50px;
         }
-
-        /* Underlining Specific Sections */
-        .underline {
-            text-decoration: underline;
-        }
-
     </style>
 </head>
 <body>
@@ -169,8 +163,8 @@
             <p>As a financial planner, I am dedicated to helping clients build wealth and create a lasting legacy through personalised strategies and informed decision making. I focus on understanding each client’s unique needs, offering clear actionable advice and building long term plans for success. By providing tailored solutions, I empower clients to navigate life’s financial challenges with confidence and security.</p>
         </div>
 
-        <!-- Qualifications Section (Underlined) -->
-        <div class="section highlight underline" id="qualifications">
+        <!-- Qualifications Section -->
+        <div class="section highlight" id="qualifications">
             <h2>Qualifications</h2>
             <ul>
                 <li>BCom in Business Management</li>
@@ -180,8 +174,8 @@
             </ul>
         </div>
 
-        <!-- Services Offered Section (Underlined) -->
-        <div class="section highlight underline" id="services-offered">
+        <!-- Services Offered Section -->
+        <div class="section highlight" id="services-offered">
             <h2>Services Offered</h2>
             <ul>
                 <li>Risk Planning (Life, Disability, Severe Illness, Funeral)</li>
@@ -197,8 +191,8 @@
             </ul>
         </div>
 
-        <!-- Book a Meeting Form (Underlined) -->
-        <div class="section meeting-form underline">
+        <!-- Book a Meeting Form -->
+        <div class="section meeting-form">
             <h2>Book a Meeting</h2>
             <form action="mailto:w.meyer@sanlam4u.co.za" method="post" enctype="text/plain">
                 <label for="name">Name:</label>

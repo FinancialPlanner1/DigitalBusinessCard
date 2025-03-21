@@ -128,9 +128,6 @@
             scroll-behavior: smooth;
         }
 
-        .sitemap-section {
-            margin-top: 50px;
-        }
     </style>
 </head>
 <body>
@@ -207,17 +204,6 @@
         <div class="section" id="connect-with-me">
             <h2>Connect with Me</h2>
             <p><a href="https://www.linkedin.com/in/william-meyer-a86677235/" target="_blank" class="button">Connect on LinkedIn</a></p>
-        </div>
-
-        <!-- Site Map Section -->
-        <div class="sitemap-section">
-            <h2>Site Map</h2>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#qualifications">Qualifications</a></li>
-                <li><a href="#services-offered">Services Offered</a></li>
-                <li><a href="#connect-with-me">Connect with Me</a></li>
-            </ul>
         </div>
     </div>
 

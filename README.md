@@ -6,7 +6,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #333333; /* Dark charcoal grey background */
+            background-color: #333333; /* Darker grey background */
             margin: 0;
             padding: 0;
             color: #f4f4f9; /* Light text color for contrast */
@@ -43,30 +43,17 @@
         }
 
         .contact-info {
-            background: #ffffff; /* Set to white for business card effect */
-            color: black; /* Black text for contact info */
+            background: #005B9F;
+            color: white;
             padding: 15px;
             text-align: center;
             border-radius: 5px;
-            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for business card effect */
-            margin-bottom: 20px;
         }
         .contact-info a {
-            color: black;
+            color: white;
             text-decoration: none;
             font-weight: bold;
         }
-
-        .contact-info .contact-numbers {
-            display: flex;
-            justify-content: center;
-            gap: 20px; /* Space between the numbers */
-        }
-
-        .contact-info .contact-numbers p {
-            margin: 0;
-        }
-
         .section {
             margin-bottom: 20px;
             text-align: left;
@@ -98,7 +85,7 @@
         }
         footer {
             text-align: center;
-            background-color: #333333; /* Charcoal grey footer */
+            background-color: #333333; /* Darker grey footer */
             padding: 10px;
             margin-top: 40px;
             font-size: 0.9em;
@@ -194,10 +181,9 @@
         <!-- Contact Info Section -->
         <div class="contact-info">
             <p><strong>Contact Me</strong></p>
-            <div class="contact-numbers">
-                <p>Cell: <a href="tel:+27634229601">+27 63 422 9601</a></p>
-                <p>Alternate Cell: <a href="tel:+27310720031">+27 31 072 0031</a></p>
-            </div>
+            <p>Email: <a href="mailto:w.meyer@sanlam4u.co.za">w.meyer@sanlam4u.co.za</a></p>
+            <p>Cell: <a href="tel:+27634229601">+27 63 422 9601</a></p>
+            <p>Alternate Cell: <a href="tel:+27310720031">+27 31 072 0031</a></p>
         </div>
 
         <!-- About Me Section -->

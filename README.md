@@ -6,10 +6,10 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #333333; /* Darker grey background */
+            background-color: #f4f4f9;
             margin: 0;
             padding: 0;
-            color: #f4f4f9; /* Light text color for contrast */
+            color: #333;
         }
         .container {
             width: 90%;
@@ -85,11 +85,10 @@
         }
         footer {
             text-align: center;
-            background-color: #333333; /* Darker grey footer */
+            background-color: #f4f4f9;
             padding: 10px;
             margin-top: 40px;
             font-size: 0.9em;
-            color: #f4f4f9; /* Light text color */
         }
         .disclaimer {
             color: #777;
@@ -183,7 +182,6 @@
             <p><strong>Contact Me</strong></p>
             <p>Email: <a href="mailto:w.meyer@sanlam4u.co.za">w.meyer@sanlam4u.co.za</a></p>
             <p>Cell: <a href="tel:+27634229601">+27 63 422 9601</a></p>
-            <p>Alternate Cell: <a href="tel:+27310720031">+27 31 072 0031</a></p>
         </div>
 
         <!-- About Me Section -->
@@ -282,4 +280,3 @@
         });
     </script>
 </body>
-</html>

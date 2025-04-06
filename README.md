@@ -43,14 +43,16 @@
         }
 
         .contact-info {
-            background: #005B9F;
-            color: white;
+            background: #ffffff; /* Set to white for business card effect */
+            color: black; /* Black text for contact info */
             padding: 15px;
             text-align: center;
             border-radius: 5px;
+            box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); /* Optional shadow for business card effect */
+            margin-bottom: 20px;
         }
         .contact-info a {
-            color: white;
+            color: black;
             text-decoration: none;
             font-weight: bold;
         }
@@ -194,7 +196,7 @@
             <p><strong>Contact Me</strong></p>
             <div class="contact-numbers">
                 <p>Cell: <a href="tel:+27634229601">+27 63 422 9601</a></p>
-                <p>Tell: <a href="tel:+27310720031">+27 31 072 0031</a></p>
+                <p>Alternate Cell: <a href="tel:+27310720031">+27 31 072 0031</a></p>
             </div>
         </div>
 

@@ -193,7 +193,7 @@
             <p><strong>Contact Me</strong></p>
             <div class="contact-numbers">
                 <p>Cell: <a href="tel:+27634229601">+27 63 422 9601</a></p>
-                <p>Alternate Cell: <a href="tel:+27310720031">+27 31 072 0031</a></p>
+                <p>Tell: <a href="tel:+27310720031">+27 31 072 0031</a></p>
             </div>
         </div>
 

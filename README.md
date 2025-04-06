@@ -54,6 +54,17 @@
             text-decoration: none;
             font-weight: bold;
         }
+
+        .contact-info .contact-numbers {
+            display: flex;
+            justify-content: center;
+            gap: 20px; /* Space between the numbers */
+        }
+
+        .contact-info .contact-numbers p {
+            margin: 0;
+        }
+
         .section {
             margin-bottom: 20px;
             text-align: left;
@@ -180,9 +191,10 @@
         <!-- Contact Info Section -->
         <div class="contact-info">
             <p><strong>Contact Me</strong></p>
-            <p>Email: <a href="mailto:w.meyer@sanlam4u.co.za">w.meyer@sanlam4u.co.za</a></p>
-            <p>Cell: <a href="tel:+27634229601">+27 63 422 9601</a></p>
-            <p>Alternate Cell: <a href="tel:+27310720031">+27 31 072 0031</a></p>
+            <div class="contact-numbers">
+                <p>Cell: <a href="tel:+27634229601">+27 63 422 9601</a></p>
+                <p>Alternate Cell: <a href="tel:+27310720031">+27 31 072 0031</a></p>
+            </div>
         </div>
 
         <!-- About Me Section -->

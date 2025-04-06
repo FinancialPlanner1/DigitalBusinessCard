@@ -6,10 +6,10 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+            background-color: #333333; /* Dark charcoal grey background */
             margin: 0;
             padding: 0;
-            color: #333;
+            color: #f4f4f9; /* Light text color for contrast */
         }
         .container {
             width: 90%;
@@ -96,10 +96,11 @@
         }
         footer {
             text-align: center;
-            background-color: #f4f4f9;
+            background-color: #333333; /* Charcoal grey footer */
             padding: 10px;
             margin-top: 40px;
             font-size: 0.9em;
+            color: #f4f4f9; /* Light text color */
         }
         .disclaimer {
             color: #777;
